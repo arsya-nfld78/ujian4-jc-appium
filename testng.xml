@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Bootcamp/Project/JC-SQA17/ujian4-jc-appium/src/test/java/com/juaracoding/TestCatatanKeuangan.java">
+        <classes>
+            <class name="com.juaracoding.TestCatatanKeuangan">
+                <methods>
+                    <include name="testPemasukan"/>
+                    <include name="testPengeluaran"/>
+                    <include name="testCekSaldo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
